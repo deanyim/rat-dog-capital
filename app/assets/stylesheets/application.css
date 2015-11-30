@@ -13,15 +13,4 @@
  *= require_tree .
  *= require_self
  */
-
-@keyframes spin {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
-
-.rotate {
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: spin;
-  animation-timing-function: linear;
-}
+ 

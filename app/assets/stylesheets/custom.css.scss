@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* palette */
+
+$pink: #ff69b4;
+
+/* spacing */
+
+.mtl {
+  margin-top: 60px;
+}
+
+.mtxxl {
+  margin-top: 120px;
+}
+
+/* misc. */
+
+.center {
+  text-align: center;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  transition: color 0.4s;
+}
+
+#logo:hover {
+  color: $pink;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.rotate {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: spin;
+  animation-timing-function: linear;
+}
